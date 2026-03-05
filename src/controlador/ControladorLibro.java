@@ -7,7 +7,6 @@ package controlador;
 import java.util.ArrayList;
 import modelo.EjemplarLibro;
 import modelo.Estado;
-import modelo.Libro;
 
 /**
  *
