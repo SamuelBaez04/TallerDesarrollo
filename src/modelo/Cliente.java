@@ -16,7 +16,7 @@ public class Cliente {
     private String Direccion;
     private boolean tienePrestamo;
 
-    public Cliente() {
+    public Cliente(String documento, String nombre, String telefono, String Direccion, boolean tienePrestamo) {
         this.documento = documento;
         this.nombre = nombre;
         this.telefono = telefono;
@@ -24,6 +24,7 @@ public class Cliente {
         this.tienePrestamo = tienePrestamo;
     }
 
+  
     public String getDocumento() {
         return documento;
     }

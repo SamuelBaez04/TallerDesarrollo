@@ -13,12 +13,11 @@ import modelo.Cliente;
  */
 public class ControladorCliente {
 
-    private Cliente cliente;
+    
     private ArrayList<Cliente> listaDeclientes;
 
     public ControladorCliente() {
-        this.cliente = cliente;
-        this.listaDeclientes = listaDeclientes;
+        this.listaDeclientes = new ArrayList<>();
     }
 
     public Cliente buscarCliente(String documento) {
